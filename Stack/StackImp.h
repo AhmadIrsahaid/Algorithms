@@ -100,6 +100,8 @@ public :
 		return result;
 	}
 
-
+	~Stack() {
+		delete[]array;
+	}
 	
 };
