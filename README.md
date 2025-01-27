@@ -34,5 +34,7 @@ This repository contains implementations of various data structures and sorting 
 
 ## Getting Started
 
+
 1. Clone the repository:
-   git clone https://github.com/AhmadIrsahaid/DS-and-Algorithms.git
+   ```bash
+   git clone [https://github.com/yourusername/repository-name.git](https://github.com/AhmadIrsahaid/DS-and-Algorithms.git)
