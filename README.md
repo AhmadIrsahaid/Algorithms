@@ -7,7 +7,7 @@ This repository contains implementations of various data structures and sorting 
 ### **1. Binary Search Tree (BST)**
 - A tree-like data structure where each node has at most two children (left and right).  
 - **Key Property**: The left child has a value less than the parent, and the right child has a value greater than the parent.  
-- **Use Cases**: Searching, insertion, and deletion operations with time complexity \(O(\log n)\) in a balanced tree.
+- **Use Cases**: Searching, insertion, and deletion operations with time complexity \(O(log n)\) in a balanced tree.
 
 ---
 
