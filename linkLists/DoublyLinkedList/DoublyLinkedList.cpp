@@ -1,27 +1,23 @@
 #include <iostream>
 #include"DlistImp.h"
 using namespace std;
-int main()
-{
-	Dlist<int> list;
+int main() {
+    Dlist<int> list;
 
-	list.insertFirst(33);
-	list.insertFirst(23);
-	list.insertFirst(13);
-	list.insertFirst(53);
-	list.insertBack(99);
-	cout << "before remove first and last" << endl;
-	list.printList();
-	list.removeFirst();
-	list.removeLast();
-	list.removeAtPosition(2);
-	cout << "after remove first and last" << endl;
-	list.printList();
-	list.printList();
-	list.printListInReverse();
-	list.insertAtPosition(3, 4);
-	
+    list.insertFirst(10);
+    list.insertBack(20);
+    list.insertAtPosition(15, 1);
 
+    cout << "List: ";
+    list.printList(); 
 
+    cout << "List in reverse: ";
+    list.printListInReverse(); 
+
+    list.removeAtPosition(1);
+    cout << "After removing at position 1: ";
+    list.printList(); 
+
+    return 0;
 }
 

@@ -191,4 +191,17 @@ public:
         }
         cout << endl;
     }
+
+
+    ~Dlist() {
+        
+        Node<T>* current = head;
+        while (current != nullptr) {
+            Node<T>* temp = current;
+            current = current->next;
+            delete temp;
+        }
+        head = tail = nullptr;
+        size = 0;
+    }
 };
