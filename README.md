@@ -59,6 +59,21 @@ This repository contains implementations of various data structures and sorting 
 
 ---
 
+### **7. Huffman code Algorithm**
+- Huffman Coding is a lossless compression algorithm that minimizes the total number of bits used to encode data.
+
+- Calculate the frequency of each character.
+- Create a priority queue (min-heap) of nodes based on frequency.
+- Build a Huffman Tree:
+- Remove two nodes with the smallest frequencies.
+- Create a new node combining their frequencies.
+- Insert the new node back into the queue.
+- Assign binary codes to characters:
+- Traverse the tree: left = 0, right = 1.
+- Encode the data using the generated codes.
+- Efficient for compressing data with repeated characters!
+---
+
 ## Getting Started
 
 1. Clone the repository:
