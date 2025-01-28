@@ -43,9 +43,9 @@ This repository contains implementations of various data structures and sorting 
   - A reference (or pointer) to the next node (in singly linked lists) or both next and previous nodes (in doubly linked lists).  
 - Types:  
   - **Singly Linked List**: Nodes point to the next node only.  
-  - **Doubly Linked List**: Nodes point to both the previous and the next nodes.  
-- **Use Cases**: Dynamic memory allocation, efficient insertion/deletion.
-
+  - **Doubly Linked List**: Nodes point to both the previous and the next nodes.
+  - **Circular Linked List**:The last node points back to the first node, forming a circle.
+  - **Use Cases**: Dynamic memory allocation, efficient insertion/deletion.
 ---
 
 ### **6. Sorting Algorithms**
