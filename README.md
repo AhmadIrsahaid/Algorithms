@@ -54,7 +54,8 @@ This repository contains implementations of various data structures and sorting 
   - **Bubble Sort**: Repeatedly swaps adjacent elements if they are in the wrong order.  
   - **Quick Sort**: Divides the array into partitions and sorts them recursively.  
   - **Merge Sort**: Divides the array into halves, sorts them, and merges them back.  
-  - **Heap Sort**: Uses a heap structure to sort elements.  
+  - **Heap Sort**: Uses a heap structure to sort elements.
+  - **Binary search**: is an efficient algorithm for finding an element in a sorted array
 - **Use Cases**: Organizing data for searching, comparison, or visualization.
 
 ---
