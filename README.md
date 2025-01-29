@@ -1,4 +1,4 @@
-# Data Structures and Algorithms
+# Data Structures and Algorithms repository
 
 This repository contains implementations of various data structures and sorting algorithms. Each folder corresponds to a specific data structure or set of algorithms. Below is a detailed description of the repository's contents:
 
